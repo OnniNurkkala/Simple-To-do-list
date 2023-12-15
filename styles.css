@@ -1,0 +1,124 @@
+/* Container styling */
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main div styling */
+.main-container > div {
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    margin: 10px; /* Add some margin for separation */
+}
+
+/* Styling for the nested div with class divBackground */
+.divBackground {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+/* Title styling */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Input and button container styling */
+
+
+
+div > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 5px;
+}
+
+/* Input field styling */
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Priority dropdown styling */
+select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Add button styling */
+button.add-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Sort button styling */
+button.sort-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for the list items */
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style for the Remove button */
+button.remove-button {
+    background-color: #ff6961;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
